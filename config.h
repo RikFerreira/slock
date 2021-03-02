@@ -11,6 +11,15 @@ static const char *colorname[NUMCOLS] = {
 /* treat a cleared input like a wrong password (color) */
 static const int failonclear = 1;
 
+/* default message */
+static const char * message = "LOCKED SCREEN! TYPE THE PASSWORD AND PRESS ENTER";
+
+/* text color */
+static const char * text_color = "#ebdbb2";
+
+/* text size (must be a valid size) */
+static const char * font_name = "6x13";
+
 /*Enable blur*/
 #define BLUR
 /*Set blur radius*/
